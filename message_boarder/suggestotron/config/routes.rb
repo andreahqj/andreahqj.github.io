@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :books
+
   resources :topics do
   member do
     post 'upvote'
